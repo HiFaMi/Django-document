@@ -6,6 +6,7 @@ __all__ = (
     'Membership',
 )
 
+
 class Person(models.Model):
     name = models.CharField(max_length=128)
 

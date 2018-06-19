@@ -4,6 +4,7 @@ __all__ = (
     'InstagramUser',
 )
 
+
 class InstagramUser(models.Model):
     name = models.CharField(max_length=50)
     following = models.ManyToManyField(
