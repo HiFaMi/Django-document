@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'models.many_to_many.apps.ManyToManyConfig',
 
     'inheritance.abstract_base_classes.apps.AbstractBaseClassesConfig',
+    'inheritance.multitable_table.apps.MultitableTableConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',
